@@ -1,4 +1,4 @@
-h1 {
+.title {
   font-size: 70px;
   width: 400px;
   height: 100px;
@@ -6,7 +6,7 @@ h1 {
   color: bisque;
 }
 
-h2 {
+.subtitle {
   font-size: 40px;
   width: 400px;
   height: 25px;

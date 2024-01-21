@@ -55,9 +55,9 @@ export class App extends Component {
     const { filter } = this.state;
     return (
       <section>
-        <h1>Phonebook</h1>
+        <h1 className={style.title}>Phonebook</h1>
         <ContactForm onSubmit={this.formSubmit} />
-        <h2>Contacts</h2>
+        <h2 className={style.subtitle}>Contacts</h2>
         <SearchFilter
           filter={filter}
           changeFilterInput={this.changeFilterInput}
