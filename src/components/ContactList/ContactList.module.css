@@ -1,12 +1,11 @@
 .contactList {
-  list-style: decimal;
   padding: 0;
 }
 
 .contactList li {
   display: flex;
   align-items: center;
-  gap: 25px;
+  justify-content: space-between;
 }
 
 .delete {
